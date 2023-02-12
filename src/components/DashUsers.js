@@ -1,15 +1,13 @@
 import React from 'react'
-import 'boxicons'
 import Sidebar from './Sidebar'
 
-function Dash() {
+function DashUsers() {
   return (
     <div className="min-h-screen flex flex-row bg-gray-100">
         <Sidebar />
-        <>
-        </>
+        users
     </div>
   )
 }
 
-export default Dash
+export default DashUsers
